@@ -1,0 +1,15 @@
+body { font-family: system-ui, sans-serif; margin:0; padding:0; background:#f4f6f8; }
+.app { max-width:900px; margin:24px auto; background:white; border-radius:8px; box-shadow:0 6px 20px rgba(0,0,0,0.06); overflow:hidden; }
+header { padding:16px 20px; display:flex; justify-content:space-between; align-items:center; background:linear-gradient(90deg,#0ea5e9,#7c3aed); color:white; }
+header h1 { margin:0; font-size:20px; }
+.me { font-size:14px; opacity:0.95; }
+.chat-container { padding:16px; display:flex; flex-direction:column; height:600px; }
+.messages { flex:1; overflow:auto; padding-right:8px; margin-bottom:12px; }
+.message { margin-bottom:10px; padding:10px 12px; border-radius:10px; max-width:70%; }
+.message.mine { background:#dcfce7; margin-left:auto; text-align:right; }
+.message.other { background:#ffffff; margin-right:auto; }
+.meta { font-size:12px; color:#6b7280; display:flex; gap:8px; justify-content:space-between; }
+.text { margin-top:6px; font-size:15px; color:#111827; }
+.composer { display:flex; gap:8px; }
+.composer input { flex:1; padding:10px 12px; border-radius:8px; border:1px solid #e5e7eb; }
+.composer button { padding:10px 14px; border-radius:8px; border:none; background:#2563eb; color:white; cursor:pointer; }
